@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/../../AngularSpringEcommerce-main/Backend/billing-service/pom.xml" />
+        <option value="$PROJECT_DIR$/../../AngularSpringEcommerce-main/Backend/config-service/pom.xml" />
+        <option value="$PROJECT_DIR$/../../AngularSpringEcommerce-main/Backend/customer-service/pom.xml" />
+        <option value="$PROJECT_DIR$/../../AngularSpringEcommerce-main/Backend/gateway-service/pom.xml" />
+        <option value="$PROJECT_DIR$/../../AngularSpringEcommerce-main/Backend/inventory-service/pom.xml" />
+        <option value="$PROJECT_DIR$/../../AngularSpringEcommerce-main/Backend/order-service/pom.xml" />
+        <option value="$PROJECT_DIR$/../../temp/billing-service/pom.xml" />
+        <option value="$PROJECT_DIR$/../../temp/config-service/pom.xml" />
+        <option value="$PROJECT_DIR$/../../temp/customer-service/pom.xml" />
+        <option value="$PROJECT_DIR$/../../temp/gateway-service/pom.xml" />
+        <option value="$PROJECT_DIR$/../../temp/inventory-service/pom.xml" />
+        <option value="$PROJECT_DIR$/../../temp/order-service/pom.xml" />
+      </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/../../AngularSpringEcommerce-main/Backend/billing-service/pom.xml" />
+        <option value="$PROJECT_DIR$/../../AngularSpringEcommerce-main/Backend/config-service/pom.xml" />
+        <option value="$PROJECT_DIR$/../../AngularSpringEcommerce-main/Backend/customer-service/pom.xml" />
+        <option value="$PROJECT_DIR$/../../AngularSpringEcommerce-main/Backend/gateway-service/pom.xml" />
+        <option value="$PROJECT_DIR$/../../AngularSpringEcommerce-main/Backend/inventory-service/pom.xml" />
+        <option value="$PROJECT_DIR$/../../AngularSpringEcommerce-main/Backend/order-service/pom.xml" />
+      </set>
+    </option>
+    <option name="workspaceImportForciblyTurnedOn" value="true" />
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="17" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

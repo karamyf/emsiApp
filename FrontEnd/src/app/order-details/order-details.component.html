@@ -1,0 +1,66 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md-6">
+      <div class="card">
+        <div class="card-header">
+          Order Id: {{ orderId }}
+        </div>
+        <div class="card-body">
+          <ul class="list-group">
+            <li class="list-group-item">
+              Customer Id: {{ order.customer.id }}
+            </li>
+            <li class="list-group-item">
+              Customer name: {{ order.customer.name }}
+            </li>
+            <li class="list-group-item">
+              Customer email: {{ order.customer.email }}
+            </li>
+            <li class="list-group-item">
+              Order date: {{ order.createdAt | date: 'dd/MM/yyyy' }}
+            </li>
+            <li class="list-group-item">
+              Order status: {{ order.status }}
+            </li>
+
+          </ul>
+        </div>
+      </div>
+      <div class="col-md-12">
+        <div class="card">
+          <div class="card-header">
+            Order Items
+          </div>
+          <div class="card-body">
+            <table class="table table-striped">
+              <thead>
+                <tr>
+                  <th>Id</th>
+                  <th>Name</th>
+                  <th>Quantity</th>
+                  <th>Price</th>
+                  <th>Discount</th>
+                  <th>Subtotal</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr *ngFor="let item of order.productItems">
+                  <td>{{ item.product.id }}</td>
+                  <td>{{ item.product.name }}</td>
+                  <td>{{ item.quantity }}</td>
+                  <td>{{ item.price | number: ".2" }}</td>
+                  <td>{{ item.discount | number: ".2" }}</td>
+                  <td>{{ item.amount | number : ".2" }}</td>
+                </tr>
+                <tr>
+                  <td colspan="4"></td>
+                  <td>Total</td>
+                  <td>{{order.totalAmount | number: ".2"}}</td>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

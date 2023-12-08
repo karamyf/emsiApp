@@ -1,0 +1,24 @@
+<div class="container">
+  <table class="table">
+    <thead>
+    <tr>
+      <th>ID</th>
+      <th>CustomerId</th>
+      <th>Created at</th>
+      <th>Status</th>
+      <th>Details</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr *ngFor="let order of orders._embedded.orders">
+      <td>{{order.id}}</td>
+      <td>{{order.customerId}}</td>
+      <td>{{order.createdAt | date:'short'  }}</td>
+      <td>{{order.status}}</td>
+      <td>
+        <button class="btn btn-success" (click)="onGetOrderDetails(order)">Details</button>
+      </td>
+    </tr>
+    </tbody>
+  </table>
+</div>
