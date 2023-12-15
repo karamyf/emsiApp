@@ -1,0 +1,109 @@
+{
+  "users": [
+    {
+      "id": "user1",
+      "password": "MTIzNA==",
+      "roles": [
+        "USER"
+      ],
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1c2VyMSIsImlhdCI6MTUxNjIzOTAyMiwiZXhwIjoxNTE2MjM5MDIyLCJpc3MiOiJodHRwOi8vbG9jYWxob3N0Ojg4ODgvYXV0aCIsIm5iZiI6MTUxNjIzOTAyMiwiZmlyc3RuYW1lIjoiTWFyb3VhbmUiLCJsYXN0bmFtZSI6IkJvdWNodGFvdWkiLCJlbWFpbCI6Im1hcm9AZ21haWwuY29tIiwicm9sZXMiOlsiVVNFUiJdfQ.RH41QqjSxd-jdOLnnmd-Hdqt07bLZZ6ecjE9ahAZ_90"
+    },
+    {
+      "id": "karam",
+      "password": "MTIzNA==",
+      "roles": [
+        "Karam"
+      ],
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1c2VyMiIsImlhdCI6MTUxNjIzOTAyMiwiZXhwIjoxNTE2MjM5MDIyLCJpc3MiOiJodHRwOi8vbG9jYWxob3N0Ojg4ODgvYXV0aCIsIm5iZiI6MTUxNjIzOTAyMiwiZmlyc3RuYW1lIjoiTW9oYW1lZCIsImxhc3RuYW1lIjoiWU9VU1NGSSIsImVtYWlsIjoibWVkQGdtYWlsLmNvbSIsInJvbGVzIjpbIlVTRVIiXX0._UZo3C7e3-M3_eI_z3rzOOlxvmXzqNoIlTmTiWKB4nU"
+    },
+    {
+      "id": "admin",
+      "password": "MTIzNA==",
+      "roles": [
+        "USER",
+        "ADMIN"
+      ],
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhZG1pbiIsImlhdCI6MTUxNjIzOTAyMiwiZXhwIjoxNTE2MjM5MDIyLCJpc3MiOiJodHRwOi8vbG9jYWxob3N0Ojg4ODgvYXV0aCIsIm5iZiI6MTUxNjIzOTAyMiwiZmlyc3RuYW1lIjoiTWFyb3VhbmUiLCJsYXN0bmFtZSI6IkJvdWNodGFvdWkiLCJlbWFpbCI6Im1hcm9AZ21haWwuY29tIiwicm9sZXMiOlsiVVNFUiIsIkFETUlOIl19.y3PXG8-Iv0lGjUTNklVbrwt_b8BDZHGk8vi72JQi6NE"
+    }
+  ],
+  "products": [
+    {
+      "name": "Moroccan Rug",
+      "price": 899,
+      "checked": true,
+      "id": 4
+    },
+    {
+      "id": 8,
+      "name": "Moroccan Smartphone",
+      "price": 1200,
+      "checked": true
+    },
+    {
+      "name": "Handmade Leather Wallet",
+      "price": 50,
+      "checked": true,
+      "id": 12
+    },
+    {
+      "name": "Argan Oil Set",
+      "price": 599,
+      "checked": true,
+      "id": 16
+    },
+    {
+      "name": "Traditional Moroccan Tea Set",
+      "price": 800,
+      "checked": false,
+      "id": 20
+    },
+    {
+      "name": "Berber Style Scarf",
+      "price": 129,
+      "checked": true,
+      "id": 24
+    },
+    {
+      "name": "Moroccan Ceramic Plates Set",
+      "price": 1400,
+      "checked": true,
+      "id": 28
+    },
+    {
+      "name": "Handcrafted Wooden Chess Set",
+      "price": 349,
+      "checked": true,
+      "id": 32
+    },
+    {
+      "name": "Moroccan Spices Collection",
+      "price": 29,
+      "checked": true,
+      "id": 33
+    },
+    {
+      "name": "Authentic Moroccan Tagine",
+      "price": 1800,
+      "checked": true,
+      "id": 34
+    },
+    {
+      "name": "Traditional Moroccan Kaftan",
+      "price": 1200,
+      "checked": true,
+      "id": 35
+    },
+    {
+      "name": "Handwoven Basket",
+      "price": 450,
+      "checked": true,
+      "id": 36
+    },
+    {
+      "name": "Moroccan Lantern",
+      "price": 699,
+      "checked": true,
+      "id": 37
+    }
+  ]
+}
